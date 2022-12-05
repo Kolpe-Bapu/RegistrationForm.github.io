@@ -1,0 +1,76 @@
+html, body { 
+    height: 99%;
+    width: 99%;
+}
+
+form { 
+    border: 1px solid red;
+}
+
+h2 { 
+    text-align: center;
+}
+
+input[type=text] {
+    width: 15%;
+    padding: 5px; 
+    border: none;
+    border-bottom: 1px solid red;
+    border-radius: 5px;
+}
+
+input[type=email] {
+    width:15%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid red;
+    border-radius: 5px;
+}
+
+input[type=tel] { 
+    width: 10%;
+    padding: 5px;
+    transition-delay: 0s;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: ease-in;
+    border-radius: 5px;
+}
+
+input[type=tel]:focus {
+    width: 20%;
+}
+
+input[type=password] { 
+    width: 10%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input[type=date] {
+    width: 10%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button {
+    width: 10%;
+    height: 25px;
+    background-color: rgb(59, 198, 59);
+    border: 2px solid red;
+    box-shadow: 5px 5px 5px gray;
+    font-size: 15px;
+    border-radius: 5px;
+}                                               
+
+#reset {
+    background-color: rgb(250, 60, 60);
+    border: 2px solid black;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+legend { 
+    font-size: 20px;
+    border: 1px solid black;
+}
